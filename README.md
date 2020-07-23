@@ -185,6 +185,12 @@ Bear in mind that Cloudflare IPFS doesn't host the content itself
 don't want to rely on your computer's IPFS daemon's availability to
 serve your website.
 
+In order to use a Cloudflare API token you need to grant zone read and
+dns edit permissions (both under the zone section). You also need to not
+restrict the zone resources to a specific zone. (This is because the list
+zones API call doesn't work if you only allow access to a specific zone
+and that is needed to look up the id of the zone you specify.)
+
 ##### Environment variables
 
 ```bash
@@ -400,7 +406,7 @@ DNS providers. Also, do not forget to update the README with the new options.
 ## Users
 
 - [agentofuser.com](https://agentofuser.com)
-- [interplanetarygatsby.com](https://interplanetarygatsby.com)
+- [jaack.me](ipfs.jaack.me)
 - _Your website here_
 
 If you use this package to deploy your website, please send a pull request so I
