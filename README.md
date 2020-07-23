@@ -75,10 +75,9 @@ site generators by the following order:
 | --------        | ---------------------------------       |
 | `_site`         | jekyll, hakyll, eleventy                |
 | `site`          | some others                             |
-| `public`        | gatsby, hugo                            |
+| `public`        | gatsby, hugo, hexo                      |
 | `dist`          | nuxt                                    |
 | `output`        | pelican                                 |
-| `out`           | hexo                                    |
 | `build`         | create-react-app, metalsmith, middleman |
 | `website/build` | docusaurus                              |
 | `docs`          | many others                             |
@@ -86,7 +85,7 @@ site generators by the following order:
 Some pinning services and DNS providers require signup and additional
 environment variables to be set. We support and use `.env` files. Read
 the section bellow to find out about which services are supported and
-how to ensable them.
+how to enable them.
 
 For further information about the CLI, please run `ipfs-deploy --help`.
 
@@ -318,7 +317,7 @@ control.
 ### Contributors
 
 This project was initially started by [@agentofuser](https://github.com/agentofuser),
-who made a lot of awesome work in here. Posteriorly, it was transfered to ipfs-shipyard.
+who made a lot of awesome work in here. Posteriorly, it was transferred to ipfs-shipyard.
 Thanks for starting this awesome project!
 
 Everyone is welcome to contribute and add new features!
